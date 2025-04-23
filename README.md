@@ -1,7 +1,7 @@
 # PromptMyResume
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/63f53cb3-8c68-4fa3-bb6e-ba271b4e4b06" width="220" alt="PromptMyResume logo">
+  <img src="https://github.com/user-attachments/assets/63f53cb3-8c68-4fa3-bb6e-ba271b4e4b06" width="600" alt="PromptMyResume logo">
 </p>
 
 **PromptMyResume** is a lightweight, LLM-powered resume editing tool built with Streamlit, LangChain, and OpenAI's GPT-3.5.
