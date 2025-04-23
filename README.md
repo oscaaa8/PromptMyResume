@@ -8,16 +8,16 @@ It helps users revise resume snippets with actionable feedback, rewrites content
 
 ## 🔍 Features
 
-- ✏️ **Critique Mode**  
+-  **Critique Mode**  
   Suggests 3 specific improvements to tone, structure, and clarity using GPT-3.5.
 
-- 🔁 **Rewrite Mode**  
+-  **Rewrite Mode**  
   Generates a refined version of your text using a confident, professional tone.
 
-- 📄 **LaTeX Export**  
+-  **LaTeX Export**  
   Converts the rewritten version into a clean, `\item`-formatted LaTeX block.
 
-- 📊 **Token Usage + Model Display**  
+-  **Token Usage + Model Display**  
   Includes total tokens used and model name for transparency.
 
 ---
