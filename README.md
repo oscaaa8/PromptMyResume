@@ -1,5 +1,9 @@
 # PromptMyResume
 
+<p align="center">
+![promptmyresume-logo](https://github.com/user-attachments/assets/63f53cb3-8c68-4fa3-bb6e-ba271b4e4b06)
+</p>
+
 **PromptMyResume** is a lightweight, LLM-powered resume editing tool built with Streamlit, LangChain, and OpenAI's GPT-3.5.
 
 It helps users revise resume snippets with actionable feedback, rewrites content using a more confident and professional tone, and converts the output into LaTeX-ready format for use in academic or professional CVs.
