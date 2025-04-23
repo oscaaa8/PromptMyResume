@@ -50,3 +50,6 @@ echo "OPENAI_API_KEY=your-key-here" > .env
 
 # Run the app
 streamlit run app.py
+```
+
+Note: Requires OPENAI_API_KEY
