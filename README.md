@@ -31,7 +31,7 @@ It helps users revise resume snippets with actionable feedback, rewrites content
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ```bash
 # Clone the repository
