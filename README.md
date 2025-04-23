@@ -25,6 +25,11 @@ It helps users revise resume snippets with actionable feedback, rewrites content
   Includes total tokens used and model name for transparency.
 
 ---
+## 📽️ Demo
+
+![PromptMyResume Demo](https://github.com/user-attachments/assets/47f0092a-5885-4325-a2cb-3c24c179c691/demo.gif)
+
+---
 
 ## Dependencies
 
