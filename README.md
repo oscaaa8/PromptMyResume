@@ -22,7 +22,7 @@ It helps users revise resume snippets with actionable feedback, rewrites content
 
 ---
 
-## 🧠 Technologies
+## Dependencies
 
 - [Streamlit](https://streamlit.io/)
 - [LangChain](https://www.langchain.com/)
