@@ -38,35 +38,46 @@ llm = ChatOpenAI(
 critique_template = PromptTemplate(
     input_variables=["text"],
     template= """
-You are a professional resume editor designed to help students craft graduate-school ready CVs and Resumes. 
-A user has submitted this text:
+You are a professional resume editor helping students improve their resumes for graduate school or industry positions.
 
+A user submitted this text:
 "{text}"
 
-First, determine: is this a full resume, or just a section?
-Then, suggest 3 specific improvements that could be made (focus on tone, clarifty, action verbs, quantification)
-and any other relevant details to edit for a successful grad school or industry ready resume/cv. 
+Your tasks:
+1. Determine whether the input is a full resume or just a section (e.g. Education, Experience).
+2. Identify whether the tone and formatting are better suited for industry or academia.
+3. Suggest exactly 3 specific improvements, focusing on:
+   - Tone (confident, concise, polished)
+   - Clarity (reduce vagueness)
+   - Action verbs and quantification
 
-Respond in this format:
-Thanks for the [Resume/Snippet] Looks like you are trying to write a (industry-ready/grad-school ready) resume!
+Respond in the following format:
 
-Revision Suggestions:
+Thanks for the [{Resume or Section}] — this looks like a [{Industry or Academic}] resume!
+
+**Revision Suggestions**:
 1. ...
 2. ...
 3. ...
+
+(If applicable, include one bonus tip for formatting or structure.)
 """
 )
 # Step 2.5 - Optional Rewrite Prompt + Chain to generate text
 rewrite_template = PromptTemplate(
     input_variables=["text"],
     template="""
-You are a resume expert. Improve this text using confident tone, strong action verbs, and clarity.
-Be concise, professional, and avoid repeating words.
+You are a resume expert. Your job is to improve this resume text by making it:
+- Confident and concise
+- Rich in action verbs
+- Clear and quantifiable where possible
+- Be concise, professional, and avoid repeating words.
 
-Rewrite:
+Original:
 "{text}"
 
-Respond with only the rewritten version.
+Rewrite this content with a professional tone, avoiding repetition and filler words.
+Respond ONLY with the rewritten version — do not explain your edits.
 """,
 )
 
