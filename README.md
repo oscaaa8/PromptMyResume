@@ -27,7 +27,11 @@ It helps users revise resume snippets with actionable feedback, rewrites content
 ---
 ## 📽️ Demo
 
-![PromptMyResume Demo](https://github.com/user-attachments/assets/47f0092a-5885-4325-a2cb-3c24c179c691/demo.gif)
+
+https://github.com/user-attachments/assets/e7e79017-7bdf-4289-ae86-78342edbe08a
+
+
+![PromptMyResume Demo](https://github.com/user-attachments/assets/e7e79017-7bdf-4289-ae86-78342edbe08a.gif)
 
 ---
 
